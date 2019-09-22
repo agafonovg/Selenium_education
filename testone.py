@@ -1,7 +1,7 @@
 import math
 from selenium import webdriver
 
-path = r"C:\project\chromedriver.exe"
+path = r"C:\project\chromedriver3.exe"
 
 link = "http://suninjuly.github.io/find_link_text"
 
