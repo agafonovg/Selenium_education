@@ -20,7 +20,7 @@ try:
 	browser = webdriver.Chrome(executable_path = path)
 	browser.get("http://suninjuly.github.io/explicit_wait2.html")
 	button = WebDriverWait(browser, 12).until(
-		EC.text_to_be_present_in_element((By.ID, "price"), "100$")
+		EC.text_to_be_present_in_element((By.ID, "price"), "$100")
 	)
 	browser.find_element_by_id("book").click()
 
@@ -30,6 +30,6 @@ try:
 	browser.find_element(By.XPATH, "//button[@type='submit']").click()
 
 finally:
-	time.sleep(10)
+	time.sleep(15)
 	browser.quit()
 
