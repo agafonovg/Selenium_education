@@ -45,4 +45,4 @@ class Test2(unittest.TestCase):
 		browser.find_element(By.XPATH, "//button[@type = 'submit']").click() 
         
 if __name__ == "__main__":
-    unittest.main()
+	unittest.main()
