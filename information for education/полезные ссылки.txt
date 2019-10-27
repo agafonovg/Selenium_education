@@ -1,0 +1,5 @@
+https://devhints.io/xpath
+http://www.whitebeam.org/library/guide/TechNotes/xpathtestbed.rhtm
+https://habr.com/ru/post/250975/
+https://habr.com/ru/post/123949/
+https://webknowledge.ru/slozhnye-css-selektory-soderzhaschie-klass-i-id-elementov/
